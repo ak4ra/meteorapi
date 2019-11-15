@@ -178,7 +178,6 @@ class App extends Component {
     return (
       <Fragment>
         <header className="header">
-          {/* <h1 className="heading-1">Meteorite Explorer</h1> */}
           <h2 className="heading-2">Search NASA's Meteorite Landings API</h2>
           <Search handleSearch={this.handleSearch} />
         </header>
